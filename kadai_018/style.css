@@ -1,20 +1,15 @@
 #top {
-    width: 760px;
+    width: 800px;
     background-color: #dcc9f4;
-    margin: 20px;
-    padding: 20px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
     text-align: center;
 }
 
 .top-child {
     width: 20%;
     background-color: #ffd9df;
-    display: inline;
-    padding-left: 50px;
-    padding-right: 50px;
+    display: inline-block;
+
 }
 
 #middle {
@@ -31,7 +26,7 @@
     width: 200px;
     height: 200px;
     background-color: #87ceeb;
-    position: relative;
+    position: absolute;
     left: 100px;
     top: 100px;
 }
@@ -40,18 +35,18 @@
     width: 200px;
     height: 200px;
     background-color: #87ceeb;
-    position: relative;
+    position: absolute;
     left: 300px;
-    top: 100px;
+    top: 300px;
 }
 
 #middle-child03 {
     width: 200px;
     height: 200px;
     background-color: #87ceeb;
-    position: relative;
+    position: absolute;
     left: 500px;
-    top: 100px;
+    top: 500px;
 }
 
 #bottom {
